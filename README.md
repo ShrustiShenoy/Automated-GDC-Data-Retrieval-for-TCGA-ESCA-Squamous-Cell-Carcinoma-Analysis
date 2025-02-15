@@ -8,6 +8,7 @@ Squamous Cell Neoplasms subtype
 Open-access files in genomic data categories:Copy Number Variation and Simple Nucleotide Variation
 
 Key Features:
+
 ✅ Smart Filtering: Excludes non-essential formats (MAF/PDF/HTML/SVS)
 
 ✅ Sanitized Downloads: Auto-renames files with illegal characters
@@ -15,6 +16,8 @@ Key Features:
 ✅ Error Handling: Skips directory collisions and API failures
 
 ✅ Transparent Logging: Real-time download tracking with success/failure indicators
+
+#Workflow diagram
 
 graph LR
 A[GDC API Query] --> B{Filter by<br>TCGA-ESCA/Squamous}
