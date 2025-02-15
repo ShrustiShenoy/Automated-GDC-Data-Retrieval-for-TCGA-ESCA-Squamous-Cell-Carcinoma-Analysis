@@ -17,11 +17,16 @@ Key Features:
 
 ✅ Transparent Logging: Real-time download tracking with success/failure indicators
 
-#Workflow diagram
+# Workflow diagram
 
 graph LR
+
 A[GDC API Query] --> B{Filter by<br>TCGA-ESCA/Squamous}
+
 B --> C[Exclude MAF/PDF/SVS]
+
 C --> D[Batch Download]
+
 D --> E[Sanitize Filenames]
+
 E --> F[Local Storage]
