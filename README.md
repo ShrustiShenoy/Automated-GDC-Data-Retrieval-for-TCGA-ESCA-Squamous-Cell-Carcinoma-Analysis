@@ -9,8 +9,11 @@ Open-access files in genomic data categories:Copy Number Variation and Simple Nu
 
 Key Features:
 ✅ Smart Filtering: Excludes non-essential formats (MAF/PDF/HTML/SVS)
+
 ✅ Sanitized Downloads: Auto-renames files with illegal characters
+
 ✅ Error Handling: Skips directory collisions and API failures
+
 ✅ Transparent Logging: Real-time download tracking with success/failure indicators
 
 graph LR
