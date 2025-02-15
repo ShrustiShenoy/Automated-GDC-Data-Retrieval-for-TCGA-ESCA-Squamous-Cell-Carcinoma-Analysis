@@ -21,7 +21,7 @@ Key Features:
 
 graph LR
 
-A[GDC API Query] --> B{Filter by<br>TCGA-ESCA/Squamous}
+A[GDC API Query] -->  B{Filter by<br>TCGA-ESCA/Squamous}
 
 B --> C[Exclude MAF/PDF/SVS]
 
